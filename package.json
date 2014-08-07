@@ -1,0 +1,31 @@
+{
+  "name": "secure-random-octet",
+  "version": "0.0.0",
+  "description": "Generate a cryptographically secure octet",
+  "keywords": [
+    "crypto"
+  ],
+  "repository": "KenanY/secure-random-octet",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "dependencies": {
+    "get-random-values": "^1.0.0"
+  },
+  "devDependencies": {
+    "lodash.every": "^2.4.1",
+    "lodash.isfunction": "^2.4.1",
+    "lodash.isnumber": "^2.4.1",
+    "tape": "^2.14.0"
+  }
+}
