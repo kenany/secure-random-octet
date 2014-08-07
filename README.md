@@ -1,5 +1,7 @@
 # secure-random-octet
 
+[![Build Status](https://img.shields.io/travis/KenanY/secure-random-octet.svg)](https://travis-ci.org/KenanY/secure-random-octet)
+
 Generate a cryptographically secure octet.
 
 ## Example
