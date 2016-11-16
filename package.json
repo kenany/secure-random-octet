@@ -23,7 +23,7 @@
     "get-random-values": "^1.0.0"
   },
   "devDependencies": {
-    "lodash.every": "^2.4.1",
+    "lodash.every": "^4.6.0",
     "lodash.isfunction": "^2.4.1",
     "lodash.isnumber": "^2.4.1",
     "tape": "^2.14.0"
