@@ -33,7 +33,7 @@
     "lodash.every": "4.6.0",
     "lodash.isfunction": "3.0.9",
     "lodash.isnumber": "3.0.3",
-    "nyc": "9.0.1",
+    "nyc": "14.1.1",
     "tape": "4.10.2"
   }
 }
