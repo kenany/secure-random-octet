@@ -1,8 +1,9 @@
-var secureRandomOctet = require('../');
 var test = require('tape');
 var isFunction = require('lodash.isfunction');
 var every = require('lodash.every');
 var isNumber = require('lodash.isnumber');
+
+var secureRandomOctet = require('../');
 
 test('exports a function', function(t) {
   t.plan(1);
