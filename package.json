@@ -27,7 +27,7 @@
     "get-random-values": "^1.2.2"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "^8.0.0",
+    "@kenan/eslint-config": "^8.0.4",
     "@kenan/renovate-config": "1.5.0",
     "eslint": "^7.16.0",
     "lodash.every": "4.6.0",
