@@ -7,7 +7,7 @@
   ],
   "repository": "KenanY/secure-random-octet",
   "license": "MIT",
-  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "main": "index.js",
   "files": [
     "index.js",
@@ -20,6 +20,7 @@
     "lint": "eslint *.js test/*.js",
     "tests-only": "tape test/index.js",
     "coverage": "nyc npm run -s tests-only",
+    "release": "semantic-release",
     "pretest": "npm run -s lint",
     "test": "npm run -s tests-only"
   },
@@ -28,12 +29,16 @@
   },
   "devDependencies": {
     "@kenan/eslint-config": "^8.0.4",
-    "@kenan/renovate-config": "1.5.0",
+    "@kenan/renovate-config": "^1.5.0",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "conventional-changelog-conventionalcommits": "^4.5.0",
     "eslint": "^7.23.0",
-    "lodash.every": "4.6.0",
-    "lodash.isfunction": "3.0.9",
-    "lodash.isnumber": "3.0.3",
-    "nyc": "15.1.0",
-    "tape": "5.2.2"
+    "lodash.every": "^4.6.0",
+    "lodash.isfunction": "^3.0.9",
+    "lodash.isnumber": "^3.0.3",
+    "nyc": "^15.1.0",
+    "semantic-release": "^17.4.2",
+    "tape": "^5.2.2"
   }
 }
