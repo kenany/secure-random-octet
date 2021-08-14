@@ -1,4 +1,4 @@
-var getRandomValues = require('get-random-values');
+const getRandomValues = require('get-random-values');
 
 /**
  * Generates a cryptographically secure octet.
@@ -6,7 +6,7 @@ var getRandomValues = require('get-random-values');
  * @returns {number} A cryptographically secure octet
  */
 function secureRandomOctet() {
-  var buf = new Uint8Array(1);
+  const buf = new Uint8Array(1);
   getRandomValues(buf);
   return buf[0];
 }
