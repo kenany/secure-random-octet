@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/KenanY/secure-random-octet/compare/1.0.4...2.0.0) (2021-08-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* **ci:** Node.js v10 is no longer supported.
+
+### Features
+
+* **ci:** add Node.js v16, remove Node.js v10 ([e4b446b](https://github.com/KenanY/secure-random-octet/commit/e4b446b55ef18b9c2d67cc71616254c1c16c930f))
+
 ### [1.0.4](https://github.com/KenanY/secure-random-octet/compare/1.0.3...1.0.4) (2021-04-01)
 
 
