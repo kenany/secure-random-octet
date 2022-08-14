@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/KenanY/secure-random-octet/compare/2.0.0...3.0.0) (2022-08-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v12 is no longer supported.
+
+### Features
+
+* drop Node.js v12 support ([8de48cc](https://github.com/KenanY/secure-random-octet/commit/8de48cceae211446dffbf12e109714bb057fc69b))
+
 ## [2.0.0](https://github.com/KenanY/secure-random-octet/compare/1.0.4...2.0.0) (2021-08-14)
 
 
