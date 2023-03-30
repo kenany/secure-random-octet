@@ -28,7 +28,7 @@
     "test": "npm run -s tests-only"
   },
   "dependencies": {
-    "get-random-values": "^2.0.0"
+    "get-random-values": "^2.1.0"
   },
   "devDependencies": {
     "@kenan/eslint-config": "^10.0.2",
