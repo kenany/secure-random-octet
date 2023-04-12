@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/KenanY/secure-random-octet/compare/3.0.1...3.0.2) (2023-04-12)
+
+
+### Bug Fixes
+
+* **deps:** get-random-values@2.1.0 ([b8956f2](https://github.com/KenanY/secure-random-octet/commit/b8956f2c6400765aabf0a01bd88e8830d3f04c01))
+
 ## [3.0.1](https://github.com/KenanY/secure-random-octet/compare/3.0.0...3.0.1) (2022-08-14)
 
 
