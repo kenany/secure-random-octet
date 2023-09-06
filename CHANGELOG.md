@@ -1,3 +1,14 @@
+## [4.0.0](https://github.com/kenany/secure-random-octet/compare/3.0.2...4.0.0) (2023-09-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v14 and v16 are no longer supported.
+
+### Features
+
+* drop Node.js v14 and v16 ([655fddb](https://github.com/kenany/secure-random-octet/commit/655fddbde9738f8f18e70e3c6f15eab1aba7378e))
+
 ## [3.0.2](https://github.com/KenanY/secure-random-octet/compare/3.0.1...3.0.2) (2023-04-12)
 
 
