@@ -5,7 +5,7 @@
   "keywords": [
     "crypto"
   ],
-  "repository": "KenanY/secure-random-octet",
+  "repository": "github:kenany/secure-random-octet",
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "test": "test"
   },
   "engines": {
-    "node": "14 || 16 || >=18"
+    "node": "18 || >=20"
   },
   "scripts": {
     "lint": "eslint *.js test/*.js",
@@ -31,7 +31,7 @@
     "get-random-values": "^2.1.0"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "^10.0.2",
+    "@kenan/eslint-config": "^11.0.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "conventional-changelog-conventionalcommits": "^6.1.0",
