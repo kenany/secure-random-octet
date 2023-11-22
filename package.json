@@ -40,7 +40,7 @@
     "lodash.isfunction": "^3.0.9",
     "lodash.isnumber": "^3.0.3",
     "nyc": "^15.1.0",
-    "semantic-release": "^22.0.7",
+    "semantic-release": "^22.0.8",
     "tape": "^5.7.2"
   }
 }
