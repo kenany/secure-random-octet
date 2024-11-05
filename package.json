@@ -41,6 +41,6 @@
     "lodash.isnumber": "^3.0.3",
     "nyc": "^17.0.0",
     "semantic-release": "^24.2.0",
-    "tape": "^5.8.1"
+    "tape": "^5.9.0"
   }
 }
