@@ -13,8 +13,10 @@ test('exports a function', (t) => {
 test('returns an octet', (t) => {
   t.plan(1);
   const array = new Array(1000);
-  t.ok(every(array, () => {
-    const octet = secureRandomOctet();
-    return isNumber(octet) && octet >= 0 && octet <= 255;
-  }));
+  t.ok(
+    every(array, () => {
+      const octet = secureRandomOctet();
+      return isNumber(octet) && octet >= 0 && octet <= 255;
+    })
+  );
 });
