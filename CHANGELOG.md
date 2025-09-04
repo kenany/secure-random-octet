@@ -1,3 +1,13 @@
+## [5.0.0](https://github.com/kenany/secure-random-octet/compare/4.0.1...5.0.0) (2025-09-04)
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v18 is no longer supported.
+
+### Features
+
+* drop Node.js v18 support ([a69dc63](https://github.com/kenany/secure-random-octet/commit/a69dc636cb165085aa7b8b66b7f9b3e4d469cf42))
+
 ## [4.0.1](https://github.com/kenany/secure-random-octet/compare/4.0.0...4.0.1) (2023-10-14)
 
 
