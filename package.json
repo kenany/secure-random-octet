@@ -28,7 +28,7 @@
     "test": "npm run -s tests-only"
   },
   "dependencies": {
-    "get-random-values": "^4.0.0"
+    "get-random-values": "^4.1.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.6",
