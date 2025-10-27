@@ -1,3 +1,9 @@
+## [5.0.2](https://github.com/kenany/secure-random-octet/compare/5.0.1...5.0.2) (2025-10-27)
+
+### Bug Fixes
+
+* **deps:** get-random-values@4.1.0 ([eb53ecd](https://github.com/kenany/secure-random-octet/commit/eb53ecd11f3339a3430c4577806ad3584b588206))
+
 ## [5.0.1](https://github.com/kenany/secure-random-octet/compare/5.0.0...5.0.1) (2025-09-04)
 
 ### Bug Fixes

@@ -1,6 +1,6 @@
 {
   "name": "secure-random-octet",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "Generate a cryptographically secure octet",
   "keywords": [
     "crypto"
