@@ -1,11 +1,14 @@
 {
   "name": "secure-random-octet",
-  "version": "5.0.2",
+  "version": "0.0.0-semantic-release",
   "description": "Generate a cryptographically secure octet",
   "keywords": [
     "crypto"
   ],
-  "repository": "github:kenany/secure-random-octet",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenany/secure-random-octet.git"
+  },
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "main": "index.js",
@@ -22,19 +25,18 @@
   "scripts": {
     "lint": "biome check .",
     "tests-only": "tape test/index.js",
-    "coverage": "nyc npm run -s tests-only",
+    "coverage": "nyc pnpm run tests-only",
     "release": "semantic-release",
-    "pretest": "npm run -s lint",
-    "test": "npm run -s tests-only"
+    "pretest": "pnpm run lint",
+    "test": "pnpm run tests-only"
   },
   "dependencies": {
     "get-random-values": "^4.1.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.9",
+    "@biomejs/biome": "2.4.11",
+    "@containerbase/semantic-release-pnpm": "1.3.33",
     "@kenan/biome-config": "1.0.6",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/git": "10.0.1",
     "conventional-changelog-conventionalcommits": "9.3.1",
     "lodash.every": "4.6.0",
     "lodash.isfunction": "3.0.9",
