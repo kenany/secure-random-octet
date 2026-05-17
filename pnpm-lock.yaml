@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       get-random-values:
-        specifier: ^4.1.2
-        version: 4.1.2
+        specifier: ^5.0.0
+        version: 5.0.0
     devDependencies:
       '@biomejs/biome':
         specifier: 2.4.15
@@ -858,9 +858,9 @@ packages:
     resolution: {integrity: sha512-sTSfBjoXBp89JvIKIefqw7U2CCebsc74kiY6awiGogKtoSGbgjYE/G/+l9sF3MWFPNc9IcoOC4ODfKHfxFmp0g==}
     engines: {node: '>= 0.4'}
 
-  get-random-values@4.1.2:
-    resolution: {integrity: sha512-wSryUwTGxprpTZqyA2BLt3s/nnk49aeUiaVcoGeZckvu1NpC8nueUO6D74VfXy/BEpRNL7DAD/dgPVot5chruw==}
-    engines: {node: 20 || 22 || >=24}
+  get-random-values@5.0.0:
+    resolution: {integrity: sha512-K4SoyabzMZ+stdDY4atTAml/UztnBFBu1Hk3vC4paSKHl/Cecxfe07SQhevII4/mnwGBa/q9pfaZo2lS9G4Pvg==}
+    engines: {node: 22 || >=24}
 
   get-stream@6.0.1:
     resolution: {integrity: sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==}
@@ -3156,7 +3156,7 @@ snapshots:
       dunder-proto: 1.0.1
       es-object-atoms: 1.1.1
 
-  get-random-values@4.1.2:
+  get-random-values@5.0.0:
     dependencies:
       window-or-global: 1.0.1
 
