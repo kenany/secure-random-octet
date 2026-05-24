@@ -5,7 +5,7 @@ Generate a cryptographically secure octet.
 ## Example
 
 ``` javascript
-var secureRandomOctet = require('secure-random-octet');
+import { secureRandomOctet } from 'secure-random-octet';
 
 secureRandomOctet();
 // => 4
@@ -20,7 +20,7 @@ $ npm install secure-random-octet
 ## API
 
 ``` javascript
-var secureRandomOctet = require('secure-random-octet');
+import { secureRandomOctet } from 'secure-random-octet';
 ```
 
 ### `secureRandomOctet()`
