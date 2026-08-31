@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       get-random-values:
-        specifier: ^5.0.0
+        specifier: ^5.0.1
         version: 5.0.1
     devDependencies:
       '@biomejs/biome':
